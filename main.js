@@ -10,8 +10,7 @@ function userName(URL){
 xhr.onload = () => {
     if(xhr.status >= 400){
         console.error(xhr.status);
-    }
-    else{
+    } else{
         console.log(xhr.response);
     }
 }
